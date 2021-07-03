@@ -1,0 +1,19 @@
+# WVU_CS230_2020.08_Group08
+Group 8 - Team Charter
+Vision: 
+To make a simple, yet fun game where the user is able to choose how to proceed through the adventure. 
+ 
+The vision for this project is to provide a simple entertaining and interactive JavaScript adventure game. The application will provide a unique experience for each user offering player customization and other in-game features. 
+ 
+Mission:
+We as a team will use our communication resources, particularly group calls but also text chats, to communicate decisions. Priorities will be set according to what can be done in what time frame and overall importance to the functionality of the product. This decision will be made according to the group, particularly with consideration to the people who will be working on it specifically. Roles will be split according to strengths in front-end or back-end coding.
+
+	
+Success Criteria:
+This project's success should be defined as delivery of a choose your own adventure game that is easy to understand and fun to play. The game should be equipped with standard adventure game features such as player customization, the ability to choose game difficulty, an inventory system, and a dialog system for interactions. The user should also be able to save their state in the game so they can return later, and they should be able to adjust their user preferences in-game.
+
+
+The charter should include three elements:
+Vision. An Agile project charter vision is a simple call to action without any jargon. It answers the question, “Why are we creating this product?” An example might be: “To provide an eCommerce system for a local business.”
+Mission. The Agile mission answers the question, “How will we work together to achieve this vision?” An example might be: “The team will work collaboratively to make decisions about the project, with the project owner primarily responsible for setting priorities and the development team primarily responsible for how the work is performed. We will communicate daily about progress and barriers. We will collaborate and communicate in real-time, not by email, whenever possible. We will perform work in established timeboxes using a schedule of planning meeting, work period, review meeting and lessons-learned meeting. And we will determine next steps prior to the planning meeting.”
+Success Criteria. The success criteria outline the outcomes the project will achieve. An example is, “Students will be able to successfully pick, pack, and ship a customer order within 2 hours of that order using the new warehouse management system.”

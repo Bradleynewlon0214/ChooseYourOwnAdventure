@@ -1,0 +1,132 @@
+{
+    "operators": {
+      "created_operator_0": {
+        "top": 81,
+        "left": 99,
+        "properties": {
+          "title": "Operator 3",
+          "inputs": {},
+          "outputs": {
+            "output_0": {
+              "label": "Output 1"
+            },
+            "output_1": {
+              "label": "Output 2"
+            }
+          }
+        }
+      },
+      "created_operator_2": {
+        "top": 46,
+        "left": 383,
+        "properties": {
+          "title": "Operator 5",
+          "inputs": {
+            "input_0": {
+              "label": "Input 1"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output 1"
+            },
+            "output_1": {
+              "label": "Output 2"
+            }
+          }
+        }
+      },
+      "created_operator_3": {
+        "top": 168,
+        "left": 379,
+        "properties": {
+          "title": "Operator 6",
+          "inputs": {
+            "input_0": {
+              "label": "Input 1"
+            }
+          },
+          "outputs": {
+            "output_0": {
+              "label": "Output 1"
+            },
+            "output_1": {
+              "label": "Output 2"
+            }
+          }
+        }
+      },
+      "created_operator_4": {
+        "top": 80,
+        "left": 639,
+        "properties": {
+          "title": "Operator 7",
+          "inputs": {
+            "input_0": {
+              "label": "Input 1"
+            },
+            "input_1": {
+              "label": "Input 2"
+            },
+            "input_2": {
+              "label": "Input 3"
+            },
+            "input_3": {
+              "label": "Input 4"
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "0": {
+        "fromOperator": "created_operator_0",
+        "fromConnector": "output_0",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_2",
+        "toConnector": "input_0",
+        "toSubConnector": 0
+      },
+      "1": {
+        "fromOperator": "created_operator_0",
+        "fromConnector": "output_1",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_3",
+        "toConnector": "input_0",
+        "toSubConnector": 0
+      },
+      "2": {
+        "fromOperator": "created_operator_2",
+        "fromConnector": "output_0",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_4",
+        "toConnector": "input_0",
+        "toSubConnector": 0
+      },
+      "3": {
+        "fromOperator": "created_operator_2",
+        "fromConnector": "output_1",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_4",
+        "toConnector": "input_1",
+        "toSubConnector": 0
+      },
+      "4": {
+        "fromOperator": "created_operator_3",
+        "fromConnector": "output_0",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_4",
+        "toConnector": "input_2",
+        "toSubConnector": 0
+      },
+      "5": {
+        "fromOperator": "created_operator_3",
+        "fromConnector": "output_1",
+        "fromSubConnector": 0,
+        "toOperator": "created_operator_4",
+        "toConnector": "input_3",
+        "toSubConnector": 0
+      }
+    },
+    "operatorTypes": {}
+  }

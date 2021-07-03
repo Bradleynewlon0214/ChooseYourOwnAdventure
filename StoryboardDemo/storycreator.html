@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- jQuery & jQuery UI are required -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+	<!-- Flowchart CSS and JS -->
+	<link rel="stylesheet" href="jquery.flowchart.css">
+	<script src="jquery.flowchart.js"></script>
+
+	<script src="storyboard.js"></script>
+	<style>
+		#flowchart_data {
+			width: 90%;
+			height: 250px;
+		}
+		
+		.flowchart-example-container {
+			width: 100%;
+			height: 400px;
+			background: white;
+			border: 1px solid #BBB;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Story-Board Creator</h1>
+	<div id="chart_container">
+		<div class="flowchart-example-container" id="flowchartworkspace"></div>
+	</div>
+	<div class="input-output-divs">
+		<label>Inputs:</label>
+		<input type="text" id="input_count_el" style="width: 25px;"></input>
+		<label>Outputs:</label>
+		<input type="text" id="output_count_el" style="width: 25px; margin-bottom: 5px;"></input>
+		<br>
+
+		<label>Input Label Names</label>
+		<div id="input_names_el"></div>
+		<br>
+		<label>Output Label Names</label>
+		<div id="output_names_el"></div>
+
+		<button id="clear-label-btn">Clear Label Data</button>
+	</div>
+	<br>
+
+	<button class="create_operator">Create operator</button>
+	<button class="delete_selected_button">Delete selected operator / link</button>
+	<div id="operator_properties" style="display: block;">
+		<label for="operator_title">Operator's title: </label><input id="operator_title" type="text">
+	</div>
+	<div id="link_properties" style="display: block;">
+		<label for="link_color">Link's color: </label><input id="link_color" type="color">
+	</div>
+	<button class="get_data" id="get_data">Get data</button>
+	<button class="set_data" id="set_data">Set data</button>
+	<button id="save_local">Save to local storage</button>
+	<button id="load_local">Load from local storage</button>
+	<br><br>
+	<div><textarea id="flowchart_data"></textarea></div>
+</body>
+
+</html>
