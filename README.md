@@ -22,7 +22,7 @@ This project provides a platform for users to play, and create choose your own a
 
 `sudo apt install npm`
 
-`git clone https://github.com/tdevine1/WVU_CS230_2020.08_Group08.git && cd WVU_CS230_2020.08_Group08/`
+`git clone https://github.com/Bradleynewlon0214/ChooseYourOwnAdventure.git && cd ChooseYourOwnAdventure/`
 
 <b>Running React Frontend</b>
 
